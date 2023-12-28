@@ -1,0 +1,127 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    color: red;
+    padding-top: 5px;
+    cursor: pointer;
+    padding-left:20px ;
+    
+}
+header{
+    display: flex;
+    justify-content:space-between;
+    background-color: black;
+    overflow: hidden;
+}
+li{
+    
+    display: inline-block;
+    list-style: none;
+    padding: 8px;
+    line-height: 20px;
+    padding-top: 5px;
+   
+}
+.nav-link li a{
+    text-decoration: none;
+    color: white;
+} 
+#pic{
+   
+   
+   background-image: url(Assets/1.jpg);
+ 
+    height: 400px;
+    color: white;
+    
+  
+    background-size: cover;
+}
+main{
+    background-color: red;
+}
+.title{
+    color:black;
+    padding-top: 300px;
+    padding-left: 100px;
+    line-height: 30px;
+
+}
+.center{
+    text-align: center;
+    
+}
+.f-title{
+    text-align: center;
+}
+.f-title p{
+   
+    text-align: center;  
+ 
+    
+}
+
+footer{
+  
+    background-color: black;
+    color: white;
+    
+}
+.f1-content{
+   
+    
+    column-count: 2;
+    column-span: all;
+
+   
+
+   
+}
+.f1-content p{
+ 
+    color: red;
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+.f1-content h5{
+    display:inline;
+}
+
+.nav-link li a {
+    color: white;
+}
+.nav-link li a:visited{
+    color: red;
+}
+.nav-link li a:hover{
+    color: yellow;
+    background-color: red;
+    color: white;
+}
+.nav-link li a:active{
+    color: orange;
+}
+#c1:hover{
+    border: 2px sandybrown solid;
+    border-radius: 10px;
+    
+}
+#c2:hover{
+    border: 2px sandybrown solid;
+    border-radius: 10px;
+}
+#c3:hover{
+    border: 2px sandybrown solid;
+    border-radius: 10px;
+}     
+
+#pic:hover{
+    border: solid 1px wheat;
+}
+
